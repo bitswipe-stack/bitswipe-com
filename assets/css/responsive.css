@@ -1,0 +1,132 @@
+
+@media (max-width: 1200px){
+	
+.about-content{line-height:1.5 !important;}
+
+#tf-stories .col-md-6 .storie-t {margin-left:0;}
+#tf-stories .col-md-12 a{ display: block;}
+.storie-t {max-width:100%;}
+	
+}
+
+
+@media (max-width: 1000px){
+	.produ-img{display:none;}
+	.storie-t {max-width:100% !important;}
+	.ma-p{padding-left:15px; margin-left:0;}
+	.plan-d .col-md-3{margin-left:0; margin-top:10px;}
+	#tf-blog .col-md-4{margin-top:20px;}
+	.content{padding-top:32%;}
+	
+}
+
+@media (max-width: 768px){
+	
+	
+	.produ-img{display:none;}
+	
+	
+  .content {
+	padding: 7em 0 0;
+	}
+	
+	
+	/*added properties start*/	
+#tf-works li.pull-right, #tf-works li.pull-left {
+    margin-top: 10px;
+    float: none !important;
+    text-align: center;
+    display: block;
+}
+
+#tf-stories .col-md-6 .storie-t {margin-left:0%;}
+#tf-blog .col-md-4{margin-bottom:20%;}
+
+.navbar-header .pull-right{ float:none !important;}
+
+.fright{float:none;}
+
+#tf-about .about-content{ line-height:1.3;}
+#tf-products img{display:none;}
+/*article img {
+	min-width: 96%;
+	max-width:96% !important;
+	
+}*/
+#tf-stories .col-md-12 a{ display: block;}
+
+.about-content{line-height:1.5;}
+
+ol.type li{margin-top:10px;}
+
+
+.product-headingn{font-size:18px;}
+.banner-caption1 {font-size:25px;}
+
+/*added properties end*/
+}
+
+@media (max-width: 603px){
+#tf-menu.navbar-default {
+	background-color: rgba(255, 255, 255);
+	}
+
+/*added properties start*/
+/*#tf-works li.pull-right, #tf-works li.pull-left {
+    margin-top: 10px;
+    float: none !important;
+    text-align: center;
+    display: block;
+}
+
+#tf-stories .col-md-6 .storie-t {margin-left:38px;}
+#tf-blog .col-md-4{margin-bottom:20%;}
+
+.navbar-header .pull-right{ float:none !important;}
+
+.fright{float:none;}
+*/
+
+#tf-stories .col-md-6 .storie-t {margin-left:8%;}
+
+/*added properties end*/
+
+
+label{
+    float: none !important
+}
+.pull-left.fnav,
+.pull-right.fnav {
+    float: none !important;
+    text-align: center;
+}
+
+.hover-bg .hover-text {
+    padding: 12% 10%;
+}
+
+.banner-caption1 {font-size:25px;}
+#tf-signup h5{line-height:1.5;}
+ul.footer-social li{display:block; margin-top:25px;}
+.plan-d .col-md-3{margin-left:0; margin-top:10px;}
+
+}
+
+@media (max-width: 470px){
+	/*added properties start*/
+#tf-stories .col-md-6 .storie-t {margin-left:1%;}
+/*added properties end*/
+
+	
+}
+
+
+@media (max-width: 360px){
+.hover-bg .hover-text {
+    padding: 22% 10%;
+}
+/*added properties start*/
+#tf-stories .col-md-6 .storie-t {margin-left:0%;}
+/*added properties end*/
+
+}

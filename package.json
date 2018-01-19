@@ -1,0 +1,45 @@
+{
+  "name": "bitswipe-com",
+  "version": "1.0.0",
+  "description": "\"Website for bitswipe.com\"",
+  "main": "server.js",
+  "engines": {
+    "node": "8.9.4",
+    "npm": "5.6.0"
+  },
+  "scripts": {
+    "test": "sh test/index.test.sh",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bitswipe-stack/bitswipe-com.git"
+  },
+  "keywords": [
+    "bitswipe"
+  ],
+  "author": "Seth Bergman (https://sethbergman.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bitswipe-stack/bitswipe-com/issues"
+  },
+  "homepage": "https://github.com/bitswipe-stack/bitswipe-com#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "consolidate": "^0.15.0",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "html": "^1.0.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "eslint": "^4.15.0",
+    "eslint-plugin-prettier": "^2.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "prettier": "^1.10.2"
+  },
+  "private": true,
+  "directories": {
+    "test": "test"
+  }
+}
