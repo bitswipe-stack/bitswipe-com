@@ -84,6 +84,9 @@ $('.video').parent().click(function () {
     }
 });
 
+$("#watch-video").on('hidden.bs.modal', function (e) {
+    $("#watch-video iframe").attr("src", $("#watch-video iframe").attr("src"));
+});
 
  /*====================================
     counter

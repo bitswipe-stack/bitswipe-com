@@ -334,7 +334,8 @@ ol {
 /*Video*/
 
 #hero {
-  background: url(../img/banner.jpg);
+  /* background: url(../img/banner.jpg); */
+  background: #de902f;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
